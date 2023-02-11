@@ -1,0 +1,6 @@
+{"level":"info","time":1676108182208,"pid":2288,"hostname":"DESKTOP-8UKFTC8","msg":"Connected to the in memory SQlite database."}
+{"level":"info","time":1676108182209,"pid":2288,"hostname":"DESKTOP-8UKFTC8","msg":"The database has been created~"}
+{"level":"info","time":1676108182229,"pid":2288,"hostname":"DESKTOP-8UKFTC8","msg":"User table created"}
+{"level":"info","time":1676108234948,"pid":5328,"hostname":"DESKTOP-8UKFTC8","msg":"Connected to the in memory SQlite database."}
+{"level":"info","time":1676108234949,"pid":5328,"hostname":"DESKTOP-8UKFTC8","msg":"The database has been created~"}
+{"level":"info","time":1676108234970,"pid":5328,"hostname":"DESKTOP-8UKFTC8","msg":"User table created"}
