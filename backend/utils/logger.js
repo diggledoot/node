@@ -25,10 +25,11 @@ if (!fs.existsSync(log_file)) {
 const stream = fs.createWriteStream(log_file, { flags: 'a' })
 
 module.exports = pino({
+    timestamp: () => `,"time":${new Date().toISOString()}`,
     level: process.env.LOG_LEVEL || "info",
     formatters: {
         level: (label, number) => {
             return { level: label }
-        }
+        },
     }
 }, stream)
